@@ -271,13 +271,13 @@ public class FullScreenContext extends FREContext
 		decorView.setOnFocusChangeListener(getOnFocusChangeListener());
 		decorView.setOnSystemUiVisibilityChangeListener(null);
 		
-		window.clearFlags
-		(
-			WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN
-			| WindowManager.LayoutParams.FLAG_FULLSCREEN
-			| WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION 
-			| WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
-		);
+		// window.clearFlags
+		// (
+			// WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN
+			// | WindowManager.LayoutParams.FLAG_FULLSCREEN
+			// | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION 
+			// | WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
+		// );
 		
 		init(); 
 		

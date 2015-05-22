@@ -11,3 +11,5 @@
 /example-flashdevelop/extensions
 /example-flashdevelop/bin
 /example-flashdevelop/dist
+/build/build.bat
+/build/build.config
